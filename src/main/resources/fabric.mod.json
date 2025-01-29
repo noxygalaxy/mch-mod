@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "mchelper",
+	"version": "1.0.0",
+	"name": "MC Helper",
+	"description": "\"MC Helper is a mod that makes managing commands and item bindings in Minecraft a little bit easier. Bind commands to items and get notifications in a boss bar.",
+	"authors": ["noxygalaxy"],
+	"contact": {
+		"sources": "https://github.com/noxygalaxy/mch-mod",
+		"issues": "https://github.com/noxygalaxy/mch-mod/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mchelper/icon.png",
+	"mixins": [
+		"mchelper.mixins.json"
+	],
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.noxy.MCHelper"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.11.3",
+		"minecraft": "1.16.5"
+	},
+	"compatibility": {
+		"client": "*",
+		"server": "none"
+	}
+}
