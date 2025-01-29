@@ -1,6 +1,9 @@
-# MC Helper
+<div align="center">
+<img height="128" width="128" src="_assets/icon-rounded.png" border-radius="16px">
+<h1>MC Helper</h1>
 
 MC Helper is a simple yet powerful mod designed to make command management and item binding easier in Minecraft. It lets you bind custom commands to items in your inventory. ( i will add more features and more versions in future )
+</div>
 
 ### Features:
 - **Command Bindings**: Bind commands to items in your inventory, allowing you to execute them with a click of the mouse. For example, bind a command to the left mouse button (LMB) for quick execution.
